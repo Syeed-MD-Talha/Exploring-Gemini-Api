@@ -31,7 +31,7 @@ from google import genai
 from google.genai.types import Tool, GenerateContentConfig, GoogleSearch, Image,Part
 from google.colab import files
 
-client = genai.Client(api_key="AIzaSyBpDTvRmjhbk9ryLibwaXS2HMKJPBAYsmY")
+client = genai.Client(api_key="Your API Key")
 model_id = "gemini-2.0-flash"
 
 # Upload the image file
